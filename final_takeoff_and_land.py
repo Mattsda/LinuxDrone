@@ -18,9 +18,9 @@ def connectMyCopter():
 
 ##Function to arm the drone and takeoff into the air##
 def arm_and_takeoff(aTargetAltitude):
-    while not vehicle.is_armable:
-        print("Waiting for vehicle to become armable")
-        time.sleep(1)
+    #while not vehicle.is_armable:
+    #    print("Waiting for vehicle to become armable")
+    #    time.sleep(1)
 
     #Switch vehicle to GUIDED mode and wait for change
     vehicle.mode = VehicleMode("GUIDED")
