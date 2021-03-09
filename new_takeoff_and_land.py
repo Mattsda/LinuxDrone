@@ -3,7 +3,6 @@
 from dronekit import connect, VehicleMode, LocationGlobalRelative
 import time
 import socket
-#import exceptions
 import argparse
 
 ###Function definitions for mission####
