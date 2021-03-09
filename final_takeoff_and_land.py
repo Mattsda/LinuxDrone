@@ -12,7 +12,7 @@ def connectMyCopter():
 
     connection_string = args.connect
 
-    vehicle = connect(connection_string, wait_ready=True)
+    vehicle = connect('127.0.0.1:14550', wait_ready=True)
 
     return vehicle
 
