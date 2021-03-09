@@ -1,4 +1,7 @@
-from dronekit import connect
+from dronekit import connect, VehicleMode
+import time
+import socket
+import argparse
 
 vehicle = connect('tcp:127.0.0.1:5760', wait_ready=True)
 
