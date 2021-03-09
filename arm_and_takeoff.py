@@ -3,7 +3,7 @@ import time
 import socket
 import argparse
 
-vehicle = connect('tcp:127.0.0.1:5760', wait_ready=True)
+vehicle = connect('127.0.0.1:14550', wait_ready=True)
 
 def arm_and_takeoff(aTargetAltitude):
     """
