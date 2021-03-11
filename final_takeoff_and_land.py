@@ -24,8 +24,8 @@ def arm_and_takeoff(aTargetAltitude):
 
     #Switch vehicle to GUIDED mode and wait for change
     vehicle.mode = VehicleMode("GUIDED")
-    while vehicle.mode!="GUIDED":
-        print("Waiting for vehicle to enter GUIDED mode")
+    #while vehicle.mode!="GUIDED":
+        #print("Waiting for vehicle to enter GUIDED mode")
         #time.sleep(1)
 
     #Arm vehicle once GUIDED mode is confirmed
